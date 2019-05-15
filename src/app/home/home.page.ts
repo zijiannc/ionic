@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  text = 'aaa';
+  onChangeText() {
+    this.text = 'bbb';
+  }
 }
